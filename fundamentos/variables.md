@@ -1,14 +1,14 @@
 ## Fundamentos
 
-| Variáveis  | Description                                          | Observation                                                              |
-|---------|------------------------------------------------------| -------------------------------------------------------------------------|
-|  var    | Dart faz a inferência de tipo da variável            | Não permite fazer a alteração do tipo da variável, valor pode ser alterado                        |
-| final   | Definida em tempo de execução                        | ``final String entradaUsuario = stdin.readLineSync();``                                                             |
-| const   | Definida em tempo de compilação                      |  ``const PI = 3.14;``                                                                        |
-| dynamic | Não tem um tipo definido, muda de acordo com os valores que são atribuídos |   ``dynamic variavel = "abc"; variavel = 3;``                                                  |
-| List    | Conhecido como Array ou vetor, valores indexados, aceita repetições, heterogêneo |   ``List numeros = [1,2,3,4]; ou var numeros = [1,2,3,4];``                                                  |
-| Set    | Conhecido como conjuntos, não indexados, não aceita repetições, heterogêneo e possui operações de conjunto  |   ``Set<String> times = {"Santos", "Flamengo"}; ou  var times = {"Santos", "Flamengo"}; ou Set<Object> times = {"Santos", 123};``                                                  |
-| Map    | Conhecido como objeto, chaves e valores, heterogêneo  |   ``Map<int, String> pessoas = {1: "Alan"} ou var pessoas = {1: "Alan"};``                                                  |
+| Tipos básicos  | Características                                          | Observação                                                              |
+|----------------|-----------------------------------------------------------| -------------------------------------------------------------------------|
+| var            | Dart faz a inferência de tipo da variável                 | Não permite fazer a alteração do tipo da variável, valor pode ser alterado                        |
+| final          | Definida em tempo de execução                             | ``final String entradaUsuario = stdin.readLineSync();``                                                             |
+| const          | Definida em tempo de compilação                           |  ``const PI = 3.14;``                                                                        |
+| dynamic        | Não tem um tipo definido, muda de acordo com os valores que são atribuídos |   ``dynamic variavel = "abc"; variavel = 3;``                                                  |
+| List           | Conhecido como array ou vetor, valores indexados, aceita repetições, heterogêneo |   ``List numeros = [1,2,3,4]; ou var numeros = [1,2,3,4];``                                                  |
+| Set            | Conhecido como conjuntos, não indexados, não aceita repetições, heterogêneo e possui operações de conjunto  |   ``Set<String> times = {"Santos", "Flamengo"}; ou  var times = {"Santos", "Flamengo"}; ou Set<Object> times = {"Santos", 123};``                                                  |
+| Map            | Conhecido como objeto, chaves e valores, heterogêneo  |   ``Map<int, String> pessoas = {1: "Alan"} ou var pessoas = {1: "Alan"};``                                                  |
 
 ### Cuidados
 
@@ -36,7 +36,7 @@ Exemplo:
 |---------------|---------------|-----------|
 |  AND          | &&            | Binário   |
 |  OR           | &#124;&#124;  | Binário   |
-|  Exclusive OR | ^             | Binário e retorna verdadeiro apenas se um dos valores for verdadeiro  |
+|  Exclusive OR | ^             | Binário (retorna verdadeiro apenas se um dos valores for verdadeiro)  |
 |  Negação      | !             | Unário    |
 
 
